@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Domainname:</b>
+  <%= @domain.domainname %>
+</p>
+
+<p>
+  <b>Lastknownexpiry:</b>
+  <%= @domain.lastknownexpiry %>
+</p>
+
+<p>
+  <b>Lastchecked:</b>
+  <%= @domain.lastchecked %>
+</p>
+
+
+<%= link_to 'Edit', edit_domain_path(@domain) %> |
+<%= link_to 'Back', domains_path %>

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  domainname: MyString
+  lastknownexpiry: 2013-01-20 04:57:10
+  lastchecked: 2013-01-20 04:57:10
+
+two:
+  domainname: MyString
+  lastknownexpiry: 2013-01-20 04:57:10
+  lastchecked: 2013-01-20 04:57:10
