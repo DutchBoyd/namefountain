@@ -1,9 +1,14 @@
 Namefountain::Application.routes.draw do
-  get "static_pages/home"
-
-  get "static_pages/faq"
-
-  get "static_pages/results"
+  get "users/new"
+  
+  root to: 'static_pages#home'
+  
+  match '/signup',	to: 'users#new'
+  match '/home', 	to: 'static_pages#home'
+  match '/faq', 	to: 'static_pages#faq'
+  match '/results',	to: 'static_pages#results'
+  match '/contact',	to: 'static_pages#contact'
+  match '/privacy',	to: 'static_pages#privacy'
 
   resources :alerts
 

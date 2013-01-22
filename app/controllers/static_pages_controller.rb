@@ -7,4 +7,11 @@ class StaticPagesController < ApplicationController
 
   def results
   end
+  
+  def contact
+  end
+  
+  def privacy
+  end
+  
 end
